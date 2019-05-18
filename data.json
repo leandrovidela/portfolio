@@ -1,0 +1,95 @@
+{
+  "esp": [
+    {
+      "hero": {
+        "title": "Leandro Videla - Frontend Developer",
+        "hi": "Hola.",
+        "am": [
+          "Mi nombre es Leandro.",
+          "Trabajo como desarrollador Frontend ",
+          "y vivo en Buenos Aires, Argentina."
+        ]
+      }
+    }
+  ],
+  "eng": [
+    {
+      "hero": {
+        "title": "Leandro Videla - Frontend Developer",
+        "hi": "Hi.",
+        "am": [
+          "I'm Leandro.",
+          "I work as a frontend developer. ",
+          "I'm based in Buenos Aires, Argentina."
+        ]
+      }
+    }
+  ],
+  "works": [
+    {
+      "href": "http://orange.sc/",
+      "name": "Orange"
+    },
+    {
+      "href": "http://www.wavenet.com/",
+      "name": "WAVENET"
+    },
+    {
+      "href": "http://pecaseucreditofinsol.com/",
+      "name": "Finsol"
+    },
+    {
+      "href": "https://orange.sc/clientes/picada-mundial/",
+      "name": "Piccadely"
+    },
+    {
+      "href": "https://posgradosgdl.up.edu.mx/",
+      "name": "UP México"
+    },
+    {
+      "href": "https://www.mccarthys-usa.com/brownsville/",
+      "name": "Mc Carthys Irish Pub"
+    },
+    {
+      "href": "http://laberintopatagonia.com/",
+      "name": "Laberinto"
+    },
+    {
+      "href": "http://lancuer.com.ar/",
+      "name": "Lancuer"
+    }
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "Javascrip",
+    "SASS",
+    "Bootstrap",
+    "JQuery",
+    "React",
+    "Next.js",
+    "GitHub",
+    "Responsive Design"
+  ],
+  "contact": [
+    {
+      "item": "hello@leandrovidela.com"
+    },
+    {
+      "item": "GitHub",
+      "href": "https://github.com/leandrovidela"
+    },
+    {
+      "item": "Codepen",
+      "href": "https://codepen.io/leandrovidela/"
+    },
+    {
+      "item": "Instagram",
+      "href": "https://www.instagram.com/leandro.a.videla/"
+    },
+    {
+      "item": "+054 11 2182 0627",
+      "href": "https://api.whatsapp.com/send?phone=5491121820627&text=Hola!"
+    }
+  ]
+}

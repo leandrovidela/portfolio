@@ -1,0 +1,55 @@
+.Lang
+  position: fixed
+  z-index: 30
+  right: 50px
+  top: 30px
+  display: flex
+  flex-direction: column
+  opacity: 0
+  transform: translate3d(0, 25px, 0)
+  transition: opacity 1.3s ease, transform 1s ease
+  &__menu
+    position: relative
+    transform: translate3d(0, 40px, 0)
+    border: 1px solid
+    border-color: #ffffff
+    transition: border-color 0.3s cubic-bezier(0.22, 0.88, 0.76, 0.98)
+    
+.Lang.show
+  opacity: 1
+  transform: translate3d(0, 0, 0)
+
+.menu 
+  overflow: hidden
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    background: #000000
+    width: 45px
+    height: 45px
+    transform: translate3d(0, 0, 0)
+    transition: transform 0.3s cubic-bezier(0.22, 0.88, 0.76, 0.98)
+  &__item
+    background: #ffffff
+    display: flex
+  &__item__link
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 45px
+    height: 45px
+    text-transform: uppercase
+    transition: color 0.3s cubic-bezier(0.22, 0.88, 0.76, 0.98)
+    z-index: 1
+    font-size: 14px  
+  .lang-es
+    color: #ffffff
+  .lang-eng
+    color: #000000  
+
+.menu.on-selecting:before
+  transform: translate3d(0, 45px, 0);    
