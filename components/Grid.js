@@ -2,6 +2,9 @@ class Grid extends React.Component {
   constructor(props) {
     super(props);
     this.grid = React.createRef();
+    this.state = {
+      cantidadDeLineas: [6]
+    };
   }
 
   componentDidMount() {
@@ -17,15 +20,15 @@ class Grid extends React.Component {
   }
 
   render() {
+    const cantidadDeLineas = 6;
+    const lineas = [];
+    for (let i = 0; i < cantidadDeLineas; i++) {
+      lineas.push(<div className={`grid__item-line`} key={i} />);
+    }
     return (
       <div className="grid">
         <div className={`u-wrapper grid__g-container`} ref={this.grid}>
-          <div className="grid__item-line" />
-          <div className="grid__item-line" />
-          <div className="grid__item-line" />
-          <div className="grid__item-line" />
-          <div className="grid__item-line" />
-          <div className="grid__item-line" />
+          {lineas}
         </div>
       </div>
     );
