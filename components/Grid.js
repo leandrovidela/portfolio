@@ -2,9 +2,6 @@ class Grid extends React.Component {
   constructor(props) {
     super(props);
     this.grid = React.createRef();
-    this.state = {
-      cantidadDeLineas: [6]
-    };
   }
 
   componentDidMount() {
